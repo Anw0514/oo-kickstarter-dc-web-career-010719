@@ -1,16 +1,16 @@
-describe 'Backer - ::new' do
-  it 'takes a name on initialization' do
-    backer = Backer.new("Avi")
-    expect(backer.name).to eq("Avi")
-  end
-end
+# describe 'Backer - ::new' do
+#   it 'takes a name on initialization' do
+#     backer = Backer.new("Avi")
+#     expect(backer.name).to eq("Avi")
+#   end
+# end
 
-describe 'Project - ::new' do
-  it 'takes a title on initialization' do
-    project = Project.new("Project With So Much Amaze")
-    expect(project.title).to eq("Project With So Much Amaze")
-  end
-end
+# describe 'Project - ::new' do
+#   it 'takes a title on initialization' do
+#     project = Project.new("Project With So Much Amaze")
+#     expect(project.title).to eq("Project With So Much Amaze")
+#   end
+# end
 
 describe 'Backer - #back_project' do
   it 'accepts a Project as an argument and stores it in a backed_projects array' do
